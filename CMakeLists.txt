@@ -8,5 +8,4 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE CXX)
 
-add_subdirectory(LibA)
-add_subdirectory(LibB)
+add_subdirectory(src)
